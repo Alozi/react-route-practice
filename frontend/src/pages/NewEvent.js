@@ -15,10 +15,6 @@ export async function action({ request, params }) {
         description: data.get('description')
     };
 
-    console.log('test');
-
-    console.log(eventData);
-
     const response = await fetch('http://localhost:8080/events', {
         method: 'POST',
         headers: {
