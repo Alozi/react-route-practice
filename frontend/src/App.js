@@ -29,10 +29,12 @@ import EventDetail from './pages/EventDetail';
 import NewEvent from './pages/NewEvent';
 import EditEvent from './pages/EditEvent';
 import EventRoot from './pages/EventRoot';
+import Error from './pages/Error';
 
 const router = createBrowserRouter([{
   path: '/',
   element: <Root />,
+  errorElement: <Error />,
   children: [
     { index: true, element: <Home /> },
     {
