@@ -1,13 +1,1 @@
-{
-    "events": [
-      {
-        "title": "A new event",
-        "image": "https://cdn.muenchen-p.de/fl_progressive,q_65/.imaging/stk/responsive/teaser300/dms/va-2016/muenchner-christkindlmarkt/christkindlmarkt-marienplat-logo-hp/document/christkindlmarkt-marienplat-logo-hp.jpg",
-        "date": "2022-10-01",
-        "description": "Some awesome event!",
-        "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a9"
-      }
-    ],
-    "users": []
-  }
-  
+{"events":[{"title":"Testing...","image":"https://thewonderlusters.com/wp-content/uploads/2018/10/View-from-Oia-Castle.jpg","date":"2025-05-15","description":"Some text...","id":"429ee358-7b5c-4be4-af52-17a3a829d6cd"},{"title":"An new event","image":"https://static.independent.co.uk/s3fs-public/thumbnails/image/2021/06/02/20/istock-833264986.jpg?quality=75&width=1250&crop=3%3A2%2Csmart&auto=webp","date":"2025-05-15","description":"An awesome new event!","id":"cd460eaf-e10a-4f48-808c-7381ec43254d"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}
