@@ -12,10 +12,6 @@ export async function action({ request }) {
   const searchParams = new URL(request.url).searchParams;
   const mode = searchParams.get('mode') || 'login';
 
-  console.log(mode);
-
-  console.log( mode !== 'signup');
-
   if (mode !== 'login' && mode !== 'signup') {
     throw new Response(JSON.stringify({ message: 'Unsupported mode.' }), {
       status: 422
